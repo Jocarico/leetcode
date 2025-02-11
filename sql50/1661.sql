@@ -10,3 +10,5 @@ WHERE
     and b.activity_type = 'end'
 GROUP BY
     a.machine_id
+
+-- Table is separated by a self-join
